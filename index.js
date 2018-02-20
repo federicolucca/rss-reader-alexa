@@ -41,38 +41,34 @@ RssReader.prototype.intentHandlers = {
     {
       switch (intent.slots.FeedName.value.toLowerCase()) {
         case "world":
-        url = "http://feeds.bbci.co.uk/news/world/rss.xml?edition=uk";
+        url = "http://www.repubblica.it/rss/esteri/rss2.0.xml";
         break;
         case "front page":
         case "uk":
         case "main":
-        url = "http://feeds.bbci.co.uk/news/rss.xml?edition=uk";
+        url = "http://www.repubblica.it/rss/homepage/rss2.0.xml";
         break;
         case "technology":
         case "tech":
-        url = "http://feeds.bbci.co.uk/news/technology/rss.xml?edition=uk";
-        break;
-        case "local":
-        case "northern ireland":
-        url = "http://feeds.bbci.co.uk/news/northern_ireland/rss.xml?edition=uk";
+        url = "http://www.repubblica.it/rss/tecnologia/rss2.0.xml";
         break;
         case "business":
-        url = "http://feeds.bbci.co.uk/news/business/rss.xml?edition=uk";
+        url = "http://www.repubblica.it/rss/economia/rss2.0.xml";
         break;
         case "politics":
-        url = "http://feeds.bbci.co.uk/news/politics/rss.xml?edition=uk";
+        url = "http://www.repubblica.it/rss/politica/rss2.0.xml";
         break;
         case "health":
-        url = "http://feeds.bbci.co.uk/news/health/rss.xml?edition=uk";
+        url = "http://www.repubblica.it/rss/salute/rss2.0.xml";
         break;
         case "education":
-        url = "http://feeds.bbci.co.uk/news/education/rss.xml?edition=uk";
+        url = "http://www.repubblica.it/rss/speciali/arte/rss2.0.xml";
         break;
         case "science":
-        url = "http://feeds.bbci.co.uk/news/science_and_environment/rss.xml?edition=uk";
+        url = "http://www.repubblica.it/rss/scienze/rss2.0.xml";
         break;
         case "entertainment":
-        url = "http://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml?edition=uk";
+        url = "http://www.repubblica.it/rss/spettacoli_e_cultura/rss2.0.xml";
         break;
 
         default:
